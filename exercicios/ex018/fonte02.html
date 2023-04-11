@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+       @font-face {
+        font-family:'game' ;
+        src: url(fonts/Game\ Of\ Squids.ttf) format('truetype'), url(fonts/Game\ Of\ Squids.otf) format('opentype');
+        font-weight: normal;
+        font-style: normal;
+       }
+       body{
+        font:normal bold 1em 'Arial'
+       }
+       h1, h2{
+       font: normal 500 2em 'game' , times, sans-serif;
+        text-decoration: underline;
+       }
+     
+       /*
+       Tipos de format()
+       -opentype (otf)
+       -truetype (ttf)
+       -embedded-opentype ()
+       -truetype-att(Apple Advanced Typography)
+       -svg
+       
+       */
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui suscipit, minus enim nihil magnam deserunt blanditiis eius, porro libero incidunt temporibus placeat voluptatem. Deleniti laborum veniam ratione molestias tempore cumque?</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, debitis! Laboriosam ab corrupti repudiandae ducimus nemo voluptatem omnis tempore consequatur, possimus in earum, voluptate, placeat accusamus officiis minima aut architecto.</p>
+</body>
+</html>

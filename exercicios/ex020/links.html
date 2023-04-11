@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        #  = id 
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children
+        */
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a{
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: yellow;
+            text-decoration: underline;
+        }
+        a:active{
+            color: red;
+        }
+        .loco::after{
+            content: '◅';
+        }
+        .loco::before{
+            content: '▻';
+        }
+        .loco{
+            background-color: green;
+            color: white;
+        }
+        a:visited{
+            color: rgb(64, 23, 102);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul type="circle">
+        <li><a href="https://www.wowhead.com" target="_blank">wowhead</a></li>
+        <li><a href="https://www.twitch.tv/tarik" target="_blank">tt/tarik</a></li>
+        <li><a href="https://twitter.com/home" target="_blank" class="loco">Twitter</a></li>
+    </ul>
+</body>
+</html>

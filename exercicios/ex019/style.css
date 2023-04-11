@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(129, 230, 196);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h1{
+color: rgb(33, 65, 54) ;
+}
+h1#principal{
+    background-color:rgb(33, 65, 54);
+    color: white;
+    text-align: center;
+}
+h2{color: rgb(42, 121, 94);
+
+}
+.basico{
+    color: rgba(0, 128, 0, 0.6);
+}
+.intermediario{
+    color: rgb(0, 0, 255, 0.6);
+}
+.avancado{
+    color: rgb(255, 0, 0, 0.6);
+}
+.destaque{
+    font-weight: bold;
+    background-color: rgba(175, 175, 84, 0.466);
+}
+/*
+em HTML é id      =  em CSS é #   (só pode um elemento)
+em HTML é class   =  em CSS é .   (pode varios elementos)
+*/
